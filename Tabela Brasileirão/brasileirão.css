@@ -1,0 +1,147 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: rgb(57, 160, 57);
+  background-size: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+    background-color: white;
+    box-shadow: 5px 5px 15px gray;
+    width: 1080px;
+    margin: auto;
+    padding: 5px 0px;
+    text-indent: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 10px solid darkgreen;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+tbody {
+  margin: auto;
+}
+
+.rodadas {
+  padding: 30px 0px 0px 0px;
+}
+
+.tabela-jogos {
+  border: 2px solid rgb(82, 81, 81);
+  border-collapse: collapse;
+  background-color: white;
+}
+
+h1 {
+  background-color: rgb(255, 255, 255);
+  color: green;
+  border-radius: 10px;
+}
+
+aside {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gray;
+  width: 350px;
+  padding: 0px 0px 5px 0px;
+  margin: auto;
+}
+
+div#cabeçalhoRodada {
+  background-color: darkgreen;
+  border-top-left-radius:  10px;
+  border-top-right-radius: 10px;
+}
+
+button {
+  display: inline-block;
+  border: 5px;
+  border-radius: 10px;
+  border-color: black;
+  padding: 5px;
+  box-shadow: 3px 3px 5px gray;
+}
+button:hover {
+  display: inline-block;
+  background-color: lightgreen;
+  box-shadow: 1px 1px 1px 1px white;
+  border: 5px;
+  border-radius: 10px;
+  border-color: black;
+  padding: 5px;
+}
+
+h2 {
+  color: white;
+  display: inline-block;
+  border: 0px;
+  border-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+ul {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+li {
+  color: black;
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 5px 10px 5px 10px;
+  padding: 5px;
+}
+
+tr,
+th,
+td {
+  border: solid 1px gray;
+  color: black;
+}
+
+thead {
+  border: solid 1px gray;
+  color: black;
+}
