@@ -337,14 +337,14 @@ function proximaRodada(i) {
   listaJogos.innerHTML = elemento;
 }
 
-/*function proximaRodada(i) {
+function proximaRodada(i) {
   var elemento = "";
   for (var i = 0; i < terceiraRodada.length; i++) {
     elemento += "<li>" + terceiraRodada[i] + "</li>";
   }
   var listaJogos = document.getElementById("listaJogos");
   listaJogos.innerHTML = elemento;
-}*/
+}
 
 exibeTimesNaTela(times); //  chama a function
 rodada1(primeiraRodada);
